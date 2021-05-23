@@ -1,5 +1,5 @@
 COM the powershell script and this payload can be found at
-COM https://github.com/Huzaifaahmed01/Al-Nafi-Cipher-Scripts/tree/main/Wifi-Grab
+COM https://github.com/Al-Nafi/Al-Nafi-Cipher-Scripts/tree/main/Penetrating-Windows-Wifi-Password-Manager
 
 COM --------GUIDE---------
 COM download the powershell script.

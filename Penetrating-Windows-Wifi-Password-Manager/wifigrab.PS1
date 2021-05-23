@@ -1,6 +1,6 @@
 <#
 this script can be found at 
-https://github.com/axel05869/Wifi-Grab
+https://github.com/Al-Nafi/Al-Nafi-Cipher-Scripts/tree/main/Penetrating-Windows-Wifi-Password-Manager
 
 ---------------------REFERENCE:----------------------
 https://github.com/exploitechx/wifi-password-extractor

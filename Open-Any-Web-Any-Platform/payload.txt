@@ -1,0 +1,14 @@
+COM Uncomment the following lines as per your Operating System
+DELAY 600
+COM Linux run dialog
+COM ALT F2
+COM DELAY 200
+COM Mac OS run dialog
+COM GUI SPACE
+COM DELAY 200
+COM Windows run dialog
+GUI r
+DELAY 200
+COM Type in URL and open page!
+STRING http://ghanimah.com/
+ENTER

@@ -1,0 +1,7 @@
+COM Open the command line. You don't need admin because you are only adding to the Users Startup Directory
+GUI r
+DELAY 100
+COM The shutdown command has many good options '/t' adds a Delay, and '/r' restarts
+STRING shutdown /r /t 30
+ENTER
+COM It will restart after 30 seconds

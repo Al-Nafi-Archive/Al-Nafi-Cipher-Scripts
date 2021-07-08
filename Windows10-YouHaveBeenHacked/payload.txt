@@ -1,0 +1,55 @@
+COM This is a script to download and change the wallpaper in windows 10
+COM In order to work, windows must be using the default app for opening photos 
+DELAY 5000
+CONTROL ESCAPE
+DELAY 100
+COM Note: The internet explorer method works usually for everyone but
+COM If you want to use Chrome or Firefox instead of IE, remove 'iexplorer' from the following line
+COM but also make sure to follow instructions bellow
+STRING iexplore https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRNsbHN0geAFuQjuK2lr2Q0NjvvWNwR4CZThFtQmK6GsVEpe0rj4h7-3S5uGEXi9M_PY&usqp=CAU
+ENTER
+DELAY 4000
+CONTROL s
+DELAY 2000
+ENTER
+DELAY 300
+CONTROL ESCAPE
+DELAY 300
+COM If you want to use Chrome, change 'Documents' to 'Downloads'
+COM If you want to use Firefox, change 'Documents' to 'Pictures'
+STRING %USERPROFILE%\Documents\01-rubberduck-hongkong.jpg
+DELAY 500
+ENTER
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+ENTER
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+ENTER
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+ENTER
+DELAY 500
